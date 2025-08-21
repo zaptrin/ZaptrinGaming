@@ -1,0 +1,193 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #f5f5f5;
+}
+
+header {
+    background: #299e47;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    background: #00238a;
+    padding: 8px 16px;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.ff-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    color: #111;
+    padding: 8px 24px;
+}
+
+.nav-top ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 25px;
+}
+
+.nav-top ul li a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+.search-section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-section input {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    width: 120px;
+}
+
+.lang-btn button {
+    background: #179c52;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 14px;
+    margin-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.social-icons span {
+    margin-left: 7px;
+    font-size: 18px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    min-height: 90vh;
+}
+
+.sidebar {
+    width: 230px;
+    background: #343434;
+    color: #fff;
+    min-height: 90vh;
+    padding: 20px 0;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 75px;
+    height: 75px;
+    background: #299e47;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.profile h2 {
+    font-size: 1.1rem;
+    margin: 0 0 6px 0;
+    font-weight: 800;
+}
+
+.profile p {
+    margin: 0;
+    color: #29e47e;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin: 17px 0;
+}
+
+.sidebar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 500;
+    padding-left: 24px;
+}
+.sidebar nav ul li a:hover {
+    background: #299e47;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    padding: 35px;
+}
+
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background: url('unila-bg.jpg') center center/cover no-repeat;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(22,80,31,0.60);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.overlay p {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 900px) {
+    .main-container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        min-height: auto;
+    }
+    .main-content {
+        padding: 15px;
+    }
+}
