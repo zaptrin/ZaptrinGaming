@@ -1,1 +1,75 @@
-ZaptrinGaming
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Universitas Lampung - Kampus Hijau</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-section">
+            <img src="Logo_Unila.png" alt="Logo Universitas Lampung" class="logo">
+            <span class="ff-text">FF</span>
+        </div>
+        <div class="nav-top">
+            <nav class=pilihan-top>
+                <ul>
+                    <li><a href="#">Beranda</a></li>
+                    <li><a href="#">Fakultas</a></li>
+                    <li><a href="#">Prodi</a></li>
+                    <li><a href="#">Akademik</a></li>
+                    <li><a href="#">Aplikasi</a></li>
+                    <li><a href="#">Informasi Publik</a></li>
+                    <li><a href="#">Jejak Kuliah</a></li>
+                </ul>
+            </nav>
+            <div class="search-section">
+                <input type="search" placeholder="search">
+                <button>🔍</button>
+            </div>
+            <div class="lang-btn">
+                <button>ID_EN</button>
+            </div>
+            <div class="social-icons">
+                <span>○</span><span>○</span><span>○</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="profile">
+                <div class="avatar"></div>
+                <h2>DEAN KRESNA ANANDA</h2>
+                <p>2215061002</p>
+            </div>
+            <nav class="Kiri">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Kurikulum</a></li>
+                    <li><a href="#">Jejak Kuliah</a></li>
+                    <li><a href="#">Tugas Kuliah</a></li>
+                    <li><a href="#">Referensi</a></li>
+                    <li><a href="#">Dokumentasi</a></li>
+                    <li><a href="#">Kontak</a></li>
+                    <li><a href="#">Unduh CV</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Section -->
+        <main class="main-content">
+            <div class="hero-image">
+                <div class="overlay">
+                    <h1><span style="color: #2b84fd;">Selamat</span> Datang di Kampus Hijau</h1>
+                    <p>Universitas Lampung memiliki Misi "PADA TAHUN 2025 UNILA MENJADI PERGURUAN TINGGI SEPULUH TERBAIK DI INDONESIA"</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
